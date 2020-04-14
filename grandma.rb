@@ -1,5 +1,5 @@
 # Write a speak_to_grandma method.
-
+    
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
@@ -11,3 +11,10 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+speak_to_grandma(greeting)
+  if greeting "I LOVE YOU TOO PUMPKIN!"
+  elsif greeting "HUH?! SPEAK UP, SONNY!"
+  else greeting "NO, NOT SINCE 1938!"
+  end
+end
