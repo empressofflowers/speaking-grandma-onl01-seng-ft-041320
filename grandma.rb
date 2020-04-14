@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 speak_to_grandma(greeting)
-  if greeting ==
+  if greeting == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif greeting == 
     puts "HUH?! SPEAK UP, SONNY!"
