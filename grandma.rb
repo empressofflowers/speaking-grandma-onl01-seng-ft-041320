@@ -18,6 +18,6 @@ def speak_to_grandma(greeting)
   elsif greeting.capitalize == greeting
     "HUH?! SPEAK UP, SONNY!"
   else greeting.upcase == greeting.upcase
-    "HUH?! SPEAK UP, SONNY!"
+    "NO, NOT SINCE 1938!"
   end
 end
